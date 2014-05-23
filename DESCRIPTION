@@ -2,7 +2,9 @@ Package: logodds
 Title: Transform between log-odds and proportions
 Version: 0.1
 Authors@R: "Michael Lerch <mdlerch@gmail.com> [aut, cre]"
-Description: Calculate the log-odds of a proportion and the proportion of log-odds
-Depends: R (>= 2.0.0)
+Description: Calculate the log-odds of a proportion and the proportion of
+    log-odds
+Depends:
+    R (>= 2.0.0)
 License: MIT
 LazyData: true
