@@ -14,5 +14,6 @@
 #'
 logit <- function(p)
 {
+  if(p >1.00 | p <0.00) stop("Prob must be between 0 and 1")
     log(p / (1 - p))
 }
