@@ -14,5 +14,13 @@
 #'
 logit <- function(p)
 {
+  if (p <= 0)
+  {
+    stop("Proportions must be > 0")
+  }
+  if ( p>= 0)
+{
+    stop("Proportions must be <1")
+  }
     log(p / (1 - p))
 }
